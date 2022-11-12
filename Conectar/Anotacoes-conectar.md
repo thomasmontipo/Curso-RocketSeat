@@ -158,7 +158,7 @@ IOS     |
 <br> **Responsabilidades**<br>
 - Gerenciamento da memória, processos, armazenamento e dispositivos
 
-![Kernel](imagens/kernel.png)
+![Kernel](/imagens/Kernel.png)
 
 
 **Gerenciamento de processos**
