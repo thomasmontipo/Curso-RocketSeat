@@ -158,7 +158,7 @@ IOS     |
 <br> **Responsabilidades**<br>
 - Gerenciamento da memória, processos, armazenamento e dispositivos
 
-![Kernel](/imagens/Kernel.png)
+![Kernel](https://github.com/thomasmontipo/Curso-RocketSeat/blob/novos-arquivos/Conectar/imagens/Kernel.png?raw=true)
 
 
 **Gerenciamento de processos**
