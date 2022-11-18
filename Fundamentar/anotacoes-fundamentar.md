@@ -276,3 +276,139 @@
 **Input: range**
 - comtrole para selecionar um valor numérico
 - slider ou dial control
+
+## JavaScript Core
+- Linguagem de programação que roda no navegador do usuário
+- Roda também no computador
+- Fracamente tipada, ou seja, não preciso dizer o typeof da variável ao declara-la.
+
+**Sintaxe**
+- Escrever textos de uma forma correta
+- Toda linguagem tem
+
+**Tipos de dados**
+- Gramática
+    - Elementos da linguagem
+- Vocabulário
+    - Conjunto de termos e expressões
+    - Agrupamento de palavras
+
+**Object**
+- Dado estrutural
+- Todo objeto possui propriedades / atributos
+- Funcionalidades / métodos
+- Forma de escrita
+    - ```{ propriedade: "valor"}```
+        - Abro chaves
+        - Coloco a propriedade
+        - Coloco o valor da propriedade
+        - Fecho chaves
+    - Exemplo:
+        - ```console.log({name: "Thomas", idade: 36, andar: function()=})```
+
+**Scope**
+- Determina escopo de uma variável
+- O escopo, por sua vez, determina a visibilidade de alguma variável no JS
+- **Block Statement**
+    - É um bloco definido por {} o qual vai ser executado
+
+**Tipos de variáveis**
+- Variável global: Acontece dentro de todos os block statement de uma aplicação
+    - Caso uma variável esteja definida depois da função que necessita dela, o JS vai puxar (elevar=hosting) a variável para cima do bloco que necessita dela, mas sem o valor e apresentará o valor ```Undefined```
+    - Hosting -> Elevação da variável para uma linha antes do que está sendo solicitada.
+
+- Variável local: Acontece apenas dentro do block statement ao qual ela está inserida
+- **Var**
+    - Global e local
+    - Pode ser alterado, por que é uma variável;
+    - Exemplo:
+        ![var](./JS/images/var%20x.png)
+
+- **let**
+    - Local
+    - Pode ser alterado, por que é uma variável; veja o exemplo do que acontece ao tentar alterar o valor da constante Y
+    ![let](./JS/images/let.png)
+    - Só existe no escopo no qual a variável está declarada
+
+- **let**
+    - Local
+-   **NÃO pode ser alterado**, por que é não uma variável; veja o exemplo do que acontece ao tentar alterar o valor da constante Y
+    image.png
+    - Só existe no escopo no qual a variável está declarada
+
+**Array**
+ - Adicionar um item no fim
+    - ```array.push()```
+ - Adicionar um item no início
+    - ```array.unshift()```
+ - Remover um item no fim
+    - ```array.pop()```
+ - Remover um item no começo
+    - ```array.shift()```
+ - Apagar alguns elementos do array
+    - ```array.slice (pos.inicio, pos. final)```
+ - Remover 1 ou mais itens de qualquer posição
+    - ```array.splice(primeiro elemento a ser retirado, quantos elementos no total)```
+ - Encontrar uma posição
+    - ```array.indexof("submit")```
+
+**Expressões**
+- new
+    - Expressão que serve para criar um objeto
+    - ```let name = new String('Mayk')```
+
+
+
+
+
+**Operador**
+- Binary
+    - Precisa de 2 elementos para realizar a operação ```(1+1)```, ```(1-1)```, ```(5/2)```...
+- Unary
+    - Precisa de apenas 1 elemento para realizar a operação ``´(Number ++)´´`, ```(-- Number)```...
+- Ternary
+    -   Precisa de 3 operadores. Único exemplo: (false ? "alo" : "nada")
+
+
+## Node.js
+- != Framework
+- != Linguagem
+- É um "Runtime Enviroment"
+    - Mini sistema operacional
+    - O Node.js troca informações com o SO (Sistema Operacional) e o SO troca informações com o Hardware;
+- Assincrono
+- Single-threaded
+- Non-blocking
+
+**Executando o node.js**
+- No VS Code, abra o terminal e configure como Bash do git
+- Para rodar um código faça:
+    - ```node {nome do arquivo}```
+
+**Diretório local onde está o arquivo que estamos executando**
+- ```console.log(__dirname)```
+
+**Caminho completo + nome do arquivo**
+- ```console.log(__filename)```
+
+**Require()**
+- ```console.log(require)```
+    - ERRO DE ARGUMENTO: Sempre precisamos passar um argumento para o required;
+- ```console.log(require('path'))```
+    - Um objeto
+- Colocando o path em uma variável e rodando a partir da variável: <br>
+```const path = require('path')```
+```console.log(path.basename(__filename))```
+    - Saída: Nome do arquivo que você está executando
+
+**Criando um módulo personalizado no Node.js**
+- Cria um link entre dois arquivos JS
+- Como chamar 
+    - Crie dois arquivos: ```require.js``` e ```exports.js```;
+    - No arquivo ```require.js``` crie uma constante e crie a seguinte linha de código: <br>```const myModule = require('./exports.js')```
+    - chame a função com ```myModule()```
+
+
+## Estrutura de dados
+- Devemos estudar para tomar melhor decisões, tomada de decisão e etc...
+- Organizar dados (informações)

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background-color: red;
+    display: flex;
+
+    
+}
+
+#c1{
+    background-color: rgb(231, 247, 0);
+    height: 100vh;
+    flex-basis: 25%;
+}
+
+#space{
+    width: 1em;
+}
+
+#c2{
+    background-color: rgb(3, 14, 60);
+    height: 100vh;
+    flex: 1;
+
+}
