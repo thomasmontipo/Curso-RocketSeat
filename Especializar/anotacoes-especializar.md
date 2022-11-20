@@ -80,6 +80,16 @@
 
 
 ## React
+- Tudo é JavaScript
+- O React renderiza o HTML através de uma função que retorna HTML
+- Só pode retornar um único elemento
+	- Embrulhar com ```<>``` e ```</>``` ou uma ```<div>  </div>```
+
+**Importando arquivos CSS**
+- 
+
+
+
 
 
 
