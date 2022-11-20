@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+body, input, button{
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+}
+
+h1{
+    font-size: 45px;
+    color: #333;
+    margin: 30px 0px 20px;
+}
+
+input{
+    width: 50%;
+    height: 35px;
+    margin: 30px 0px 20px;
+    border-radius: 5px;
+}
+
+button{
+    height: 35px;
+    width: 50%;
+    border: none;
+    background-color: rgb(149, 230, 142);
+    border-radius: 5px;
+    margin-bottom: 50px;
+}

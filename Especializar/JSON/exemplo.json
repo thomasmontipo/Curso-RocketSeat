@@ -1,0 +1,22 @@
+{
+    "nome": "Thomas Henrique Montipó Guimarães",
+    "cidade": "Brasília",
+    "Telefone": 61982985745,
+    "livros_favoritos":[
+        "neuromancer",
+        "codigo limpo",
+        "essencialismo"
+    ],
+    "hobbies":{
+        "semana": "patinação",
+        "fim_de_semana":{
+            "sabado": "cinema",
+            "domingo": "parque",
+            "outros": [
+                "caminhada",
+                "volei",
+                "netflix"
+            ]
+        }
+    }
+}

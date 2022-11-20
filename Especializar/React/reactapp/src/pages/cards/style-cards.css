@@ -1,0 +1,16 @@
+.cards{
+    width: 50%;
+    height: 60px;
+    background-color: rgb(7, 176, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-bottom: 30px;
+}   
+
+.cards:hover{
+    background-color: rgb(4, 120, 173);
+    font-size: 17px;
+}
