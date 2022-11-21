@@ -408,6 +408,42 @@
     - No arquivo ```require.js``` crie uma constante e crie a seguinte linha de código: <br>```const myModule = require('./exports.js')```
     - chame a função com ```myModule()```
 
+##TypeScript
+- Trás uma tipagem de dados;
+- Mantem a consistencia da aplicação;
+- No final das contas, será complilado para JS Vanilla.
+**Motivos para usar o TypeScript**
+	- Vai evitar erros de tipologia de variáveis;
+**Declaração explicita**
+- O dev indica explicitamente qual é o tipo da variável;
+- exemplo:
+	- ```function showTicket(user: string, ticket:number)```
+
+**type: Any**
+- Declara uma variável no qual pode ter qualquer tipo
+	- ```function showTicket(user: any, ticket:any)```
+- Evitar usar, pois perde-se a essência do tipescript
+
+**Declarando um Array**
+- Existem duas formas de declarar uma array com o typescript:
+	- ```let numbers: number[];```
+	- ```let users: Array<string>;```
+
+**Mais de um tipo em uma variável**
+- ```function printUserId(id: number | string)```
+	- É utilizado o "|" como (ou)
+
+**generic**
+- Pode ser qualquer tipo de entrada de dados, mas a partir do ponto que foi definida uma vez o tipo do dado pela strig, só será aceito aquele tipo de dado;
+
+**Declaração de tipos
+- Você cria uma variável que receba todos os tipos aceitos e depois, ao invés de escrever os tipos aceitos, coloca apenas essa variável
+- Exemplo:
+	- ```IdType= string | number | undefined;```
+	- ```let userId: IdType```
+	- ```let adminId: IdType```
+cc
+
 
 ## Estrutura de dados
 - Devemos estudar para tomar melhor decisões, tomada de decisão e etc...
